@@ -7,7 +7,7 @@ uses _proxies_ to simplify reading from process.env in node.
 ```ts
 import { ConnectionOptions } from '@mikro-orm/core';
 
-import env from 'env-proxy';
+import env from '@rettgerst/env-proxy';
 
 let connection: ConnectionOptions;
 
