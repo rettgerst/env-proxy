@@ -4,6 +4,9 @@
 	"description": "",
 	"main": "dist/env-proxy.js",
 	"types": "dist/env-proxy.d.ts",
+	"engines": {
+		"node": ">=14.0.0"
+	},
 	"scripts": {
 		"prepare": "tsc",
 		"test": "jest",
