@@ -5,12 +5,6 @@ export class ProcessEnvParseError extends Error {
 	}
 }
 
-interface ProcessEnv<T> {
-	[key: string]: T | null;
-}
-
-type ProcessEnvRequired<T> = Required<ProcessEnv<T>>;
-
 const string = new Proxy(process.env, {
 	get(t, prop: string) {
 		const v = t[prop];
