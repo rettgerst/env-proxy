@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"strict": true,
+		"outDir": "dist",
+		"module": "esnext",
+		"lib": ["ES2020"],
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		"incremental": true,
+		"esModuleInterop": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}

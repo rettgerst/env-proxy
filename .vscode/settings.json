@@ -1,0 +1,12 @@
+{
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/dist": true
+	},
+	"editor.formatOnSave": true,
+	"jest.showCoverageOnLoad": true,
+	"search.exclude": {
+		"**/coverage": true,
+		"package-lock.json": true
+	}
+}
