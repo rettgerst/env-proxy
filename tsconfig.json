@@ -3,7 +3,7 @@
 		"target": "es6",
 		"strict": true,
 		"outDir": "dist",
-		"module": "esnext",
+		"module": "CommonJS",
 		"lib": ["ES2020"],
 		"moduleResolution": "node",
 		"sourceMap": true,
