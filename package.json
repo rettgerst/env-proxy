@@ -1,6 +1,6 @@
 {
 	"name": "@rettgerst/env-proxy",
-	"version": "0.1.2",
+	"version": "0.2.0",
 	"description": "",
 	"main": "dist/env-proxy.js",
 	"types": "dist/env-proxy.d.ts",
