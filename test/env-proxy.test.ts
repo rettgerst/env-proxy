@@ -33,6 +33,13 @@ describe('strings', () => {
 			}).toThrowError(ProcessEnvParseError);
 		});
 	});
+
+	test('special characters', () => {
+		const str = 'abc$de%123';
+		process.env.FOO = str;
+		const { FOO } = env.string;
+		expect(FOO).toEqual(str);
+	});
 });
 
 describe('bools', () => {
