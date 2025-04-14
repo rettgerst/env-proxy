@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) Rett Gerst.
+ * Licenese under the MIT License. See LICENSE file in the project root for full license information.
+ */
+
 export class ProcessEnvParseError extends Error {
 	constructor(name: string, toBe: string) {
 		super(`Expected environment variable ${name} to be ${toBe}.`);
